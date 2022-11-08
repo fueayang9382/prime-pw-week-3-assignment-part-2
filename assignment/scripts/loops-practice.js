@@ -46,7 +46,7 @@ for(let n=2; n<=10; n+= 2){
     console.log("%d/n",n);
   }//https://codeforwin.org/2015/06/c-program-to-print-all-even-numbers-between-1-to-100.html how i found the formula but it still print the odd numbers. 
 //Im not sure it is showing n/n??
-
+//}
   for(let n=2; n<=10; n=n+2){
     console.log('print all even numbers to ten', n);
   }
@@ -73,7 +73,7 @@ console.log('Some stars:');
 console.log('----My work of 2a start----');
 
 for( fameous of stars){
-  console.log('Some stars:', stars);
+  console.log('Some stars:', fameous);
 }
 
 console.log('----My work of 2a finished----');
@@ -86,13 +86,13 @@ console.log('---- 3. While loop ----');
 console.log('Some stars using while:');
 console.log('----My work of 3a start----');
 
-stars = true; 
+//let index = stars 
 
-while(stars < 5 ){
-  ///console.log('some stars using while:', stars);
+//while( index < 5){
+  //console.log('some stars using while:', stars);
+//}
   ///stars++; 
-}/// DO NOT RUN WILL RUN INFINITY 
-
+/// DO NOT RUN WILL RUN INFINITY 
 
 console.log('----My work of 3a finished----');
 
@@ -102,6 +102,31 @@ console.log('----My work of 3a finished----');
 console.log('count from 0 to 5');
 console.log('----My work of 3b start----');
 
+i=0;
+
+//while(i<=5){
+  //console.log('keep adding until i= 5');
+  //i++; 
+//}
+
+
+
+
 console.log('----My work of 3b finished----');
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+
+console.log('----My work of 3c start----');
+
+
+i =10;
+
+//while( 10 >= 5){
+  //console.log('subtrack i until o remains');
+  //i--; 
+//}
+
+
+
+
+console.log('----My work of 3c finished----');
