@@ -86,12 +86,22 @@ console.log('---- 3. While loop ----');
 console.log('Some stars using while:');
 console.log('----My work of 3a start----');
 
+stars = true; 
+
+while(stars < 5 ){
+  ///console.log('some stars using while:', stars);
+  ///stars++; 
+}/// DO NOT RUN WILL RUN INFINITY 
+
+
 console.log('----My work of 3a finished----');
 
 
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
+console.log('----My work of 3b start----');
 
+console.log('----My work of 3b finished----');
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
