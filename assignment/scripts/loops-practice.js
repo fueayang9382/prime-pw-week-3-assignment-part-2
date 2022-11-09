@@ -85,14 +85,17 @@ console.log('---- 3. While loop ----');
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
 console.log('----My work of 3a start----');
+
 console.log('Version 1');
 console.log('some stars using while:', stars );{
   while( stars)
   stars++; 
 }
-console.log('version 2');
+console.log('vvversion 2vv');
 
-  
+
+
+
 /// DO NOT RUN WILL RUN INFINITY 
 
 console.log('----My work of 3a finished----');
@@ -122,9 +125,11 @@ console.log('----My work of 3c start----');
 
 
 
+let n = 10;
 
-
-
-
+while( n >= 5){
+  console.log(n);
+  n--;
+}
 
 console.log('----My work of 3c finished----');
