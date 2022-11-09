@@ -86,17 +86,20 @@ console.log('---- 3. While loop ----');
 console.log('Some stars using while:');
 console.log('----My work of 3a start----');
 
-console.log('Version 1');
-console.log('some stars using while:', stars );{
-  while( stars)
-  stars++; 
+//console.log('Version 1');
+//console.log('some stars using while:', stars );{
+  //while( stars)
+  //stars++; 
+//}
+
+console.log('Some stars using while:')
+let a = 0;
+let b = 5;
+while(a < b){
+console.log( stars [a] );
+  a++;
 }
-console.log('vvversion 2vv');
 
-
-
-
-/// DO NOT RUN WILL RUN INFINITY 
 
 console.log('----My work of 3a finished----');
 
